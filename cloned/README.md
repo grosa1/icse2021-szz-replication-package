@@ -1,0 +1,1 @@
+Clone and checkout or extract all projects in this folder.

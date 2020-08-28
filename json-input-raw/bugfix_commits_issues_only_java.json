@@ -1,0 +1,122 @@
+[
+  {
+    "id": 550,
+    "repo_name": "UniTime/unitime",
+    "fix_commit_hash": "5cfacab3dd59b151a5dc265b7f105c3d59ea7b08",
+    "bug_commit_hash": [
+      "cef417001282614ea8e50c0f29513fa8b02ad575"
+    ],
+    "earliest_issue_date": "2017-03-01T13:49:44",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1076,
+    "repo_name": "codinguser/gnucash-android",
+    "fix_commit_hash": "fd7007ef21c50b1fb3b24d06ac63173b02832f5f",
+    "bug_commit_hash": [
+      "66cc5332e67e04cb6ce00c558237ea32a77bc627"
+    ],
+    "earliest_issue_date": "2020-01-01T00:00:00Z",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1275,
+    "repo_name": "scylladb/scylla-tools-java",
+    "fix_commit_hash": "20eb39fa192f14fec0edbe0a44db214f893876ae",
+    "bug_commit_hash": [
+      "13b64ad6e3d4841c4f7b49aef0858c196cb2b5e6"
+    ],
+    "earliest_issue_date": "2016-05-05T08:14:36",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2245,
+    "repo_name": "mtaylor/activemq-artemis",
+    "fix_commit_hash": "9a905ceef3bd7d78f61dff3c902ac4b38d19215b",
+    "bug_commit_hash": [
+      "4b47461f03a607b9ef517beb2a1666ffae43a2a7"
+    ],
+    "earliest_issue_date": "2017-03-28T08:45:58",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2321,
+    "repo_name": "spring-projects/spring-framework",
+    "fix_commit_hash": "813108a928fd50a1fb87e9333b974b6e7242b117",
+    "bug_commit_hash": [
+      "0adc4921ed4eadba531f12fdaa5faaf36265029b"
+    ],
+    "earliest_issue_date": "2020-01-01T00:00:00Z",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2513,
+    "repo_name": "INRIA/spoon",
+    "fix_commit_hash": "1a9b670225b1cf2586e80cde24c4ce9bfdf06da4",
+    "bug_commit_hash": [
+      "adb2fd7420b3bf01e696be87f4791759bfb6de53"
+    ],
+    "earliest_issue_date": "2016-12-19T16:24:28",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2727,
+    "repo_name": "rstudio/rstudio",
+    "fix_commit_hash": "36b13dfdf0c4f89a22f12c9cb659b0ad2e33a8a4",
+    "bug_commit_hash": [
+      "2b7bff8f28b37d73d6063338b511cedd9caa5fae"
+    ],
+    "earliest_issue_date": "2017-12-06T17:05:41",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2890,
+    "repo_name": "garbagemule/MobArena",
+    "fix_commit_hash": "ba41e51e48cc168dd8fc37f8db14db7b9fa16d65",
+    "bug_commit_hash": [
+      "88ddbe5ac6ac5aa0f18ade50aa376b25546fb058"
+    ],
+    "earliest_issue_date": "2019-07-28T08:49:23",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2911,
+    "repo_name": "apache/bookkeeper",
+    "fix_commit_hash": "477ff2b594afd4017f6fb9e8f294c9b2a75b0d6a",
+    "bug_commit_hash": [
+      "e33ec10aa400f32c2e0278c15ea80a0f624e5919"
+    ],
+    "earliest_issue_date": "2017-12-22T00:35:45",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3381,
+    "repo_name": "spring-projects/spring-boot",
+    "fix_commit_hash": "1ceb96f9f2644a1ad4ef0920ef3b6affcd73d3ed",
+    "bug_commit_hash": [
+      "5938ca78b6e6bd86364b6fdae7a84fcf7f65e761"
+    ],
+    "earliest_issue_date": "2019-09-12T11:20:38",
+    "language": [
+      "java"
+    ]
+  }
+]

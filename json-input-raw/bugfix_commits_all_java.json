@@ -1,0 +1,964 @@
+[
+  {
+    "id": 10,
+    "repo_name": "SimpleServer/SimpleServer",
+    "fix_commit_hash": "8b16295318cd85c55b04e962479de1c6532a6759",
+    "bug_commit_hash": [
+      "cfbce4351327f0f1a52ac2161dcbf49a0b31dad4"
+    ],
+    "best_scenario_issue_date": "2011-06-16T12:21:29",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 21,
+    "repo_name": "nickvandewiele/RMG-Java",
+    "fix_commit_hash": "8c5f991e6876de001ff11829ceb9894d11c80014",
+    "bug_commit_hash": [
+      "7339cc176cc7bbc671f4dec65b2f161d351ea270"
+    ],
+    "best_scenario_issue_date": "2011-06-23T23:03:18",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 38,
+    "repo_name": "open-keychain/open-keychain",
+    "fix_commit_hash": "eb5eb95a9ffb0f340c85c0710b451a5895988e21",
+    "bug_commit_hash": [
+      "d6e4936fa54dc3577296dbadaeb556178dcad2c3"
+    ],
+    "best_scenario_issue_date": "2015-01-29T16:47:27",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 85,
+    "repo_name": "computationalcore/smartcoins-wallet",
+    "fix_commit_hash": "038034fcb6daee5355c58bde8b870b5b87c28b3d",
+    "bug_commit_hash": [
+      "65efaa932ee6d0bcda6f97bf03616f1b7024aeaa"
+    ],
+    "best_scenario_issue_date": "2017-01-04T18:15:34",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 138,
+    "repo_name": "thinkaurelius/titan",
+    "fix_commit_hash": "162f942f4839b451fac706a2b0fa49f2eaf5ae77",
+    "bug_commit_hash": [
+      "37b84fb6425485bd5f2ab0396885a9a9d616e47c"
+    ],
+    "best_scenario_issue_date": "2013-05-24T19:34:05",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 139,
+    "repo_name": "CyanogenMod/android_frameworks_base",
+    "fix_commit_hash": "f75c9f110f0bc2cba401a8b95c9c4377c6c057e9",
+    "bug_commit_hash": [
+      "43e45eb94e1aa0d1c4dbd10e99df8e366f637261"
+    ],
+    "best_scenario_issue_date": "2011-04-03T11:54:05",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 166,
+    "repo_name": "christ66/git-plugin",
+    "fix_commit_hash": "8e827f29adac0c3345f3184458e1d8502a88622d",
+    "bug_commit_hash": [
+      "4fc7f4447c990082e8322c42ebafd1f33a2e60aa"
+    ],
+    "best_scenario_issue_date": "2013-12-04T16:50:30",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 263,
+    "repo_name": "imagej/imagej",
+    "fix_commit_hash": "9f2f138d347be797aad669d163f0d901d3d02d87",
+    "bug_commit_hash": [
+      "34d01ebe9f45172bcd16822a2124ae79a2dc22ec"
+    ],
+    "best_scenario_issue_date": "2012-07-22T00:41:48",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 313,
+    "repo_name": "yuriykulikov/AlarmClock",
+    "fix_commit_hash": "fc1d53fff802d8e89234845fff8928b3bdd8a2bd",
+    "bug_commit_hash": [
+      "49d5841f04025e5a481117e4100e946e0666b331"
+    ],
+    "best_scenario_issue_date": "2012-08-03T22:51:36",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 478,
+    "repo_name": "Kasukoi/eisverkauf",
+    "fix_commit_hash": "9e07b47233034a027c1e7d177dd4b9874c8c15e4",
+    "bug_commit_hash": [
+      "37abe6467f96363d02cde153c4a50b57d9a700a5"
+    ],
+    "best_scenario_issue_date": "2018-06-25T18:49:29",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 519,
+    "repo_name": "structr/structr",
+    "fix_commit_hash": "26ea7484ee8203e3f2985d3496980404d42435ae",
+    "bug_commit_hash": [
+      "1e8d8cde5bfab25b1d6e5ff39221c237374957f7"
+    ],
+    "best_scenario_issue_date": "2017-02-20T14:48:29",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 550,
+    "repo_name": "UniTime/unitime",
+    "fix_commit_hash": "5cfacab3dd59b151a5dc265b7f105c3d59ea7b08",
+    "bug_commit_hash": [
+      "cef417001282614ea8e50c0f29513fa8b02ad575"
+    ],
+    "earliest_issue_date": "2017-03-01T13:49:44",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 624,
+    "repo_name": "lumannnn/AudioRacer",
+    "fix_commit_hash": "f23a9d127d6de31a431b93c999b5db835dd61d10",
+    "bug_commit_hash": [
+      "91aca3784a8d17eaa64cb298dae3cfb068efa8f4"
+    ],
+    "best_scenario_issue_date": "2014-01-16T16:15:43",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 658,
+    "repo_name": "vr100/github-api",
+    "fix_commit_hash": "d29ea97948f56025e05b766e8b64382447c804e0",
+    "bug_commit_hash": [
+      "fee02a3d16aa835c2f1e606897e4bd08e51ba7d5"
+    ],
+    "best_scenario_issue_date": "2014-01-22T17:57:06",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 717,
+    "repo_name": "polyglot-compiler/polyglot",
+    "fix_commit_hash": "255cfc09720e3d906586abfb50a42571e66ab110",
+    "bug_commit_hash": [
+      "e4403c131f5615bfd27a224c777bab7fcf77a2e8"
+    ],
+    "best_scenario_issue_date": "2016-06-10T20:44:28",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 718,
+    "repo_name": "palantir/atlasdb",
+    "fix_commit_hash": "d4b19939970988390481de0e3761d05803bdd17e",
+    "bug_commit_hash": [
+      "648864118d17e15f7278ab2c17ca2479fe88f17f"
+    ],
+    "best_scenario_issue_date": "2015-10-02T22:26:42",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 828,
+    "repo_name": "thinkaurelius/titan",
+    "fix_commit_hash": "c45960b3fafc0bb89d8e94ddb9cf8c70d035ea46",
+    "bug_commit_hash": [
+      "fab0f61a025f824f76980d54c3aa2cfa435a8c79"
+    ],
+    "best_scenario_issue_date": "2015-05-05T02:40:44",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 846,
+    "repo_name": "Unidata/IDV",
+    "fix_commit_hash": "32e8dfcd494242b4ae2ae00824273d6ace0fe251",
+    "bug_commit_hash": [
+      "0a3fa76b3c2b4cba3708b1f06493e6ff9f398ec3"
+    ],
+    "best_scenario_issue_date": "2011-11-02T21:24:01",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 921,
+    "repo_name": "UniTime/unitime",
+    "fix_commit_hash": "0e882cc4944bdd6305cafd5d2c05a063c7f873d7",
+    "bug_commit_hash": [
+      "592152dea3d2b8489ffd7b639f416ede9488eaaf"
+    ],
+    "best_scenario_issue_date": "2015-09-24T14:03:08",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 928,
+    "repo_name": "huanghongxun/HMCL",
+    "fix_commit_hash": "87904109ca7e2557ebe8c28c55dc9d6baeca924b",
+    "bug_commit_hash": [
+      "3fb5048f103ed958bdd87207f6b6c929b5ef7eca"
+    ],
+    "best_scenario_issue_date": "2018-07-04T13:42:07",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 975,
+    "repo_name": "UniTime/unitime",
+    "fix_commit_hash": "bd9789734b0654f3719615a6239b4779b4ca36f1",
+    "bug_commit_hash": [
+      "f6e9e9d4db7a0992ab7e58f46298e65060440b00"
+    ],
+    "best_scenario_issue_date": "2018-05-15T07:40:25",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1029,
+    "repo_name": "BenzoRoms/packages_providers_TelephonyProvider",
+    "fix_commit_hash": "8f09237451e0e506241044e45e4afb4889085adf",
+    "bug_commit_hash": [
+      "8e5ee782690175e9cfb9a37f600f207b952ba8a6"
+    ],
+    "best_scenario_issue_date": "2010-01-14T17:53:59",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1065,
+    "repo_name": "openmicroscopy/bioformats",
+    "fix_commit_hash": "8a229359570d1c73ec375de98083365f420a0fd7",
+    "bug_commit_hash": [
+      "7aecd02bea1ec57b96fd272257887cd1d589a26b"
+    ],
+    "best_scenario_issue_date": "2015-12-06T21:07:51",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1076,
+    "repo_name": "codinguser/gnucash-android",
+    "fix_commit_hash": "fd7007ef21c50b1fb3b24d06ac63173b02832f5f",
+    "bug_commit_hash": [
+      "66cc5332e67e04cb6ce00c558237ea32a77bc627"
+    ],
+    "earliest_issue_date": "2020-01-01T00:00:00Z",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1079,
+    "repo_name": "JetBrains/xodus",
+    "fix_commit_hash": "faeb702f730e85df059009d307ee37b7d9eb525b",
+    "bug_commit_hash": [
+      "0dff56fdb2525803c950b97fd6d2469357075703"
+    ],
+    "best_scenario_issue_date": "2016-09-14T11:59:11",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1121,
+    "repo_name": "sosy-lab/java-smt",
+    "fix_commit_hash": "52f5ed2cae6c2e0958a47572b83e6b8b754f91ab",
+    "bug_commit_hash": [
+      "3661e14674124de2026216682372d9b99ae0fe28"
+    ],
+    "best_scenario_issue_date": "2015-12-08T19:43:47",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1208,
+    "repo_name": "PreibischLab/BigStitcher",
+    "fix_commit_hash": "78e3042946af79fdf0a60fc6a2fea63af618d83b",
+    "bug_commit_hash": [
+      "acef72c39cbf097729924faebb8b92c825642e33"
+    ],
+    "best_scenario_issue_date": "2017-07-25T16:32:40",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1218,
+    "repo_name": "fertrist/mishpaha-project-backend",
+    "fix_commit_hash": "ec3904a25562a105868163a69270ed79718ddb41",
+    "bug_commit_hash": [
+      "a39de719e930f450c488dabd21f66f7221e5f80d"
+    ],
+    "best_scenario_issue_date": "2016-05-02T10:32:59",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1264,
+    "repo_name": "JetBrains/MPS",
+    "fix_commit_hash": "2be7099c8498cf258cdc4c8395de8e3c15eef9a7",
+    "bug_commit_hash": [
+      "199ca4e59019df4572190f32b03ca709274ced7c"
+    ],
+    "best_scenario_issue_date": "2015-05-13T21:29:27",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1275,
+    "repo_name": "scylladb/scylla-tools-java",
+    "fix_commit_hash": "20eb39fa192f14fec0edbe0a44db214f893876ae",
+    "bug_commit_hash": [
+      "13b64ad6e3d4841c4f7b49aef0858c196cb2b5e6"
+    ],
+    "earliest_issue_date": "2016-05-05T08:14:36",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1284,
+    "repo_name": "tswift242/tetris",
+    "fix_commit_hash": "4990aed787007c5809635fe2e059a756804bc16e",
+    "bug_commit_hash": [
+      "dcec42bbee3b983c4bbcd2a258f84f69be20b124"
+    ],
+    "best_scenario_issue_date": "2015-01-18T02:52:44",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1381,
+    "repo_name": "IronTeaPot/react-native-charts-wrapper",
+    "fix_commit_hash": "3da25d5164cd69ed1ee83c89b5660917e81faf62",
+    "bug_commit_hash": [
+      "6862f13bd93a10370d6cffe84086033004e4fb84"
+    ],
+    "best_scenario_issue_date": "2018-02-28T08:08:37",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1401,
+    "repo_name": "JetBrains/intellij-community",
+    "fix_commit_hash": "5cf9c9264eacec609c423d97a8b1a9212269186f",
+    "bug_commit_hash": [
+      "ac494c6c2710a207f51a219e3b09360a9c94203c"
+    ],
+    "best_scenario_issue_date": "2015-05-27T10:19:38",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1418,
+    "repo_name": "DanVanAtta/triplea",
+    "fix_commit_hash": "9d845b36a93fdec4d9aefe91f062992876363fbe",
+    "bug_commit_hash": [
+      "9501cccdbbeec3a4940dee8532b143ad5febe7c8"
+    ],
+    "best_scenario_issue_date": "2015-12-29T22:47:56",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1507,
+    "repo_name": "jeromewagener/Sammelbox",
+    "fix_commit_hash": "177596d2556af23511d59b3b62e64a93620ff394",
+    "bug_commit_hash": [
+      "0796b1dac9fc7be85940502c21da3af5e07be56b"
+    ],
+    "best_scenario_issue_date": "2013-08-12T20:31:59",
+    "language": [
+      "js",
+      "java"
+    ]
+  },
+  {
+    "id": 1563,
+    "repo_name": "libbun/libbun",
+    "fix_commit_hash": "4cded138238db6b3ba8bf208fa3b39f200f7067d",
+    "bug_commit_hash": [
+      "800f8fb7166942a90b20ffd2c70f5dae4763c9f8"
+    ],
+    "best_scenario_issue_date": "2014-04-01T07:28:39",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1623,
+    "repo_name": "xwiki/xwiki-platform",
+    "fix_commit_hash": "328683ada3f8897a3156ca927580440bd5217ce6",
+    "bug_commit_hash": [
+      "16b5635c2b285c6e111f8c1975cc83e5c20ab2f5"
+    ],
+    "best_scenario_issue_date": "2019-11-20T09:03:16",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1656,
+    "repo_name": "piotr-rusin/yule",
+    "fix_commit_hash": "24ae6b95be0836ecfdaff8f73c93f038b7db9569",
+    "bug_commit_hash": [
+      "179e7cfa7c2f0ecb06cf918e0151993e6f8d6a22"
+    ],
+    "best_scenario_issue_date": "2017-01-12T18:45:36",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1666,
+    "repo_name": "abarisain/dmix",
+    "fix_commit_hash": "a28a2a29e1c9b349160074522b827308d078b9ba",
+    "bug_commit_hash": [
+      "3b43497b3183e914fc04a11aa7645eef77e2ce6f"
+    ],
+    "best_scenario_issue_date": "2014-03-10T15:14:05",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1728,
+    "repo_name": "sebastiaanschool/sebastiaanschool-Android",
+    "fix_commit_hash": "2454879bfbad68792bd952e74d27a3b1425860a1",
+    "bug_commit_hash": [
+      "cf27461bfaa78798252103345b1c14528bb4828c"
+    ],
+    "best_scenario_issue_date": "2016-10-16T10:38:12",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1913,
+    "repo_name": "Sable/soot",
+    "fix_commit_hash": "0887292a3f7928d817282b0266da9be40040c3da",
+    "bug_commit_hash": [
+      "70435f456d73b3ee2e555b8b4ec46df0b4411951"
+    ],
+    "best_scenario_issue_date": "2015-02-27T23:10:45",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1960,
+    "repo_name": "aviaryan/PopularMovies",
+    "fix_commit_hash": "2e414f8f122d2dffeab84b4d12ad959d94bc211d",
+    "bug_commit_hash": [
+      "31540ff5f39715a51ea0b7f4a7f516284d27888d"
+    ],
+    "best_scenario_issue_date": "2016-02-11T07:03:37",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1991,
+    "repo_name": "NightWhistler/PageTurner",
+    "fix_commit_hash": "ecfc8e0b3df568949ce82c9d46f78e55b2edf249",
+    "bug_commit_hash": [
+      "9dc75038618786d9e4ae64b84a8f6ce7cff2d075"
+    ],
+    "best_scenario_issue_date": "2013-08-05T13:32:40",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 1996,
+    "repo_name": "diffplug/goomph",
+    "fix_commit_hash": "bf21861e89e50caad342043d4dcffdd30d5e9434",
+    "bug_commit_hash": [
+      "7434506f7fd3a069f899c1d535eaf0a876306c6f"
+    ],
+    "best_scenario_issue_date": "2016-12-02T00:21:21",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2025,
+    "repo_name": "adamretter/exist",
+    "fix_commit_hash": "78d23a3263376611d7b065944fd7a5597bec025c",
+    "bug_commit_hash": [
+      "3dc5041e20f5949a6773fa00fab20aa6af60ab14"
+    ],
+    "best_scenario_issue_date": "2011-04-19T20:16:34",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2037,
+    "repo_name": "MaTriXy/Paginize",
+    "fix_commit_hash": "8b0238c064c8a7465f2c65c40a05be2a6d980636",
+    "bug_commit_hash": [
+      "f2dbecb84ec45427f76bf02fc29fa1a8b2c9dd2e"
+    ],
+    "best_scenario_issue_date": "2015-02-02T17:06:13",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2070,
+    "repo_name": "siemens/JMiniZinc",
+    "fix_commit_hash": "8b2049abfef423d37670f7ae65e471839856ea68",
+    "bug_commit_hash": [
+      "244613573ba49ba86e7182be6351652203b44db4"
+    ],
+    "best_scenario_issue_date": "2017-10-03T06:56:53",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2111,
+    "repo_name": "clebertsuconic/activemq-artemis",
+    "fix_commit_hash": "ddacda50626ef2cd5ccf74a3149eccbbda4a9d84",
+    "bug_commit_hash": [
+      "4b47461f03a607b9ef517beb2a1666ffae43a2a7"
+    ],
+    "best_scenario_issue_date": "2016-10-28T20:55:59",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2131,
+    "repo_name": "JetBrains/intellij-community",
+    "fix_commit_hash": "86c6fa1a631b9f8b7b39427afc98eda2710d1a14",
+    "bug_commit_hash": [
+      "6b3ab5d1791ad07bc3af4fe8bb3e57b6ed2a9662"
+    ],
+    "best_scenario_issue_date": "2016-02-19T15:45:51",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2155,
+    "repo_name": "UniTime/unitime",
+    "fix_commit_hash": "6e83ecbd7afe808af29e75c5d1cc9b4b02475bc0",
+    "bug_commit_hash": [
+      "bc910d85e112fa0c6fac5f485f338be58117ea6b"
+    ],
+    "best_scenario_issue_date": "2014-12-05T07:24:20",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2193,
+    "repo_name": "doe300/jactiverecord",
+    "fix_commit_hash": "cf786fd58f2454802ba873eb94e6c9347e4e4071",
+    "bug_commit_hash": [
+      "a606537bf9dcdc884820ae18adb9b5d78d1ef0b8"
+    ],
+    "best_scenario_issue_date": "2015-03-18T16:52:34",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2223,
+    "repo_name": "oVirt/ovirt-engine",
+    "fix_commit_hash": "30394030106a6b78388ade892d1616bbce02f8a9",
+    "bug_commit_hash": [
+      "1bfc9d0cc2e5e3a61fe3985d74b44efc6d6366a4"
+    ],
+    "best_scenario_issue_date": "2015-03-27T10:29:55",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2245,
+    "repo_name": "mtaylor/activemq-artemis",
+    "fix_commit_hash": "9a905ceef3bd7d78f61dff3c902ac4b38d19215b",
+    "bug_commit_hash": [
+      "4b47461f03a607b9ef517beb2a1666ffae43a2a7"
+    ],
+    "earliest_issue_date": "2017-03-28T08:45:58",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2321,
+    "repo_name": "spring-projects/spring-framework",
+    "fix_commit_hash": "813108a928fd50a1fb87e9333b974b6e7242b117",
+    "bug_commit_hash": [
+      "0adc4921ed4eadba531f12fdaa5faaf36265029b"
+    ],
+    "earliest_issue_date": "2020-01-01T00:00:00Z",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2332,
+    "repo_name": "TheHolyWaffle/TeamSpeak-3-Java-API",
+    "fix_commit_hash": "ca4c04eee2d41040bbb86281b06144c0a6e88b34",
+    "bug_commit_hash": [
+      "c8156def8cdc0f33f763b3edd9cec79f86c9b390"
+    ],
+    "best_scenario_issue_date": "2017-07-10T22:14:19",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2336,
+    "repo_name": "andrewphorn/ClassiCube-Client",
+    "fix_commit_hash": "638ece305bdbd783e4c326011dd1446c737b536f",
+    "bug_commit_hash": [
+      "d37442cdb1189c7202c177901832e34f582e2feb"
+    ],
+    "best_scenario_issue_date": "2015-07-19T15:13:52",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2344,
+    "repo_name": "ejaku/grgen",
+    "fix_commit_hash": "ad06ae7dd3472a319ffff5e05ad9e5c8b2b16399",
+    "bug_commit_hash": [
+      "cece3d106d14812bebf54a78db56208167caa9d4"
+    ],
+    "best_scenario_issue_date": "2020-01-18T10:09:22",
+    "language": [
+      "cs",
+      "java"
+    ]
+  },
+  {
+    "id": 2357,
+    "repo_name": "Wadeck/gitlab-oauth-plugin",
+    "fix_commit_hash": "6f2f23cc1e9445376b35cec0964f01d840cd536b",
+    "bug_commit_hash": [
+      "987608aa247272fa809414e8d07379fe1e6abfb2"
+    ],
+    "best_scenario_issue_date": "2017-12-18T02:14:49",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2446,
+    "repo_name": "crate/crate",
+    "fix_commit_hash": "3c2f2d68ad75a05742010735bc066988a10b3968",
+    "bug_commit_hash": [
+      "ae1e3e040f9aa8ce18393c9aeeac47902d2f8ca3"
+    ],
+    "best_scenario_issue_date": "2017-10-24T19:50:49",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2513,
+    "repo_name": "INRIA/spoon",
+    "fix_commit_hash": "1a9b670225b1cf2586e80cde24c4ce9bfdf06da4",
+    "bug_commit_hash": [
+      "adb2fd7420b3bf01e696be87f4791759bfb6de53"
+    ],
+    "earliest_issue_date": "2016-12-19T16:24:28",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2529,
+    "repo_name": "DigitalPebble/storm-crawler",
+    "fix_commit_hash": "ddbda7e6670cf641b7b2d360e503f7b5df082d02",
+    "bug_commit_hash": [
+      "c48a5bd47fe4f38846fae5dd9b6393e3574fd5e7"
+    ],
+    "best_scenario_issue_date": "2016-12-21T10:17:50",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2557,
+    "repo_name": "vividus-framework/vividus",
+    "fix_commit_hash": "ebef05e999309fb13f4d557f343ec22345d9eade",
+    "bug_commit_hash": [
+      "e083434176737f98a640e166cb9d1f983535ada9"
+    ],
+    "best_scenario_issue_date": "2020-02-02T20:25:37",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2602,
+    "repo_name": "eskalon/ProjektGG",
+    "fix_commit_hash": "c309fc2daf6122939ff59b66cacdba6ea42aba04",
+    "bug_commit_hash": [
+      "b129de34fe57d61a11745745c72c91f54422c4ba"
+    ],
+    "best_scenario_issue_date": "2018-08-12T15:28:33",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2727,
+    "repo_name": "rstudio/rstudio",
+    "fix_commit_hash": "36b13dfdf0c4f89a22f12c9cb659b0ad2e33a8a4",
+    "bug_commit_hash": [
+      "2b7bff8f28b37d73d6063338b511cedd9caa5fae"
+    ],
+    "earliest_issue_date": "2017-12-06T17:05:41",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2854,
+    "repo_name": "crossminer/scava",
+    "fix_commit_hash": "e8b9681a22d16464fb5920eed916d9375de44b21",
+    "bug_commit_hash": [
+      "d76b709206ff88c8a8c295066d5d188ffe76fc69"
+    ],
+    "best_scenario_issue_date": "2019-07-23T17:35:36",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2890,
+    "repo_name": "garbagemule/MobArena",
+    "fix_commit_hash": "ba41e51e48cc168dd8fc37f8db14db7b9fa16d65",
+    "bug_commit_hash": [
+      "88ddbe5ac6ac5aa0f18ade50aa376b25546fb058"
+    ],
+    "earliest_issue_date": "2019-07-28T08:49:23",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2911,
+    "repo_name": "apache/bookkeeper",
+    "fix_commit_hash": "477ff2b594afd4017f6fb9e8f294c9b2a75b0d6a",
+    "bug_commit_hash": [
+      "e33ec10aa400f32c2e0278c15ea80a0f624e5919"
+    ],
+    "earliest_issue_date": "2017-12-22T00:35:45",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2914,
+    "repo_name": "jaamsim/jaamsim",
+    "fix_commit_hash": "b8e4e6c8866244fb5dd0d94b38d44fda8fd3ca68",
+    "bug_commit_hash": [
+      "c374ff3ebc6d11f67ac2ee1336f92a2fb96c6ff2"
+    ],
+    "best_scenario_issue_date": "2019-09-21T15:14:58",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 2948,
+    "repo_name": "openmicroscopy/bioformats",
+    "fix_commit_hash": "9cec69a5085d69ea9956dee7053ddd22fd3b415f",
+    "bug_commit_hash": [
+      "b48fd4a88c599647535f6943a8a62b3d77c1d6e5"
+    ],
+    "best_scenario_issue_date": "2017-11-15T16:35:48",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3107,
+    "repo_name": "ilscipio/scipio-erp",
+    "fix_commit_hash": "dd404c353400efb5080430e068763bf84748f2fd",
+    "bug_commit_hash": [
+      "2892ce1c339c14f7e05da3463a387dc4f751a795"
+    ],
+    "best_scenario_issue_date": "2018-06-01T18:08:54",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3109,
+    "repo_name": "UniTime/unitime",
+    "fix_commit_hash": "fd604383e5e5d2243a614fe374eb080c9ae55d5a",
+    "bug_commit_hash": [
+      "0dd84a04f05c4a852194e92db650588d1a8166c0"
+    ],
+    "best_scenario_issue_date": "2017-03-01T16:58:30",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3150,
+    "repo_name": "stephengold/Maud",
+    "fix_commit_hash": "3235df6cc958d6811a8e13efd3268e6f3e1f80ce",
+    "bug_commit_hash": [
+      "e44a62e455053aed84a67fb57d5ab82e27491202"
+    ],
+    "best_scenario_issue_date": "2017-07-07T16:08:40",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3206,
+    "repo_name": "UniTime/unitime",
+    "fix_commit_hash": "dd6dc2da5d55b928dd41f1c5a8efb7df73e897f3",
+    "bug_commit_hash": [
+      "dffa2a5298ca0540313fbae53788c9842eab2cdf"
+    ],
+    "best_scenario_issue_date": "2017-06-20T07:58:38",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3355,
+    "repo_name": "SupunArunoda/CPACEP",
+    "fix_commit_hash": "5191fe2a29985f0689acce2f76fe5de32eecb610",
+    "bug_commit_hash": [
+      "888867c602e6969d278f2f7f141004c3bd7d1b38"
+    ],
+    "best_scenario_issue_date": "2018-06-13T20:30:29",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3380,
+    "repo_name": "jiangxincode/Emma",
+    "fix_commit_hash": "6e2378b3439f58a2e1ddb7b33e45b458415562e1",
+    "bug_commit_hash": [
+      "42400ef32d3644fe1632f4c0f3f9d299c49c6bc6"
+    ],
+    "best_scenario_issue_date": "2013-06-22T15:37:02",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3381,
+    "repo_name": "spring-projects/spring-boot",
+    "fix_commit_hash": "1ceb96f9f2644a1ad4ef0920ef3b6affcd73d3ed",
+    "bug_commit_hash": [
+      "5938ca78b6e6bd86364b6fdae7a84fcf7f65e761"
+    ],
+    "earliest_issue_date": "2019-09-12T11:20:38",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3459,
+    "repo_name": "georchestra/georchestra",
+    "fix_commit_hash": "28b95303ec9ba6e4942f0e0e6a92baf455a207e5",
+    "bug_commit_hash": [
+      "11b15cf907ecab5c950fa02df0c5cec2f233d4d8"
+    ],
+    "best_scenario_issue_date": "2019-09-27T12:59:54",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3521,
+    "repo_name": "prestodb/presto",
+    "fix_commit_hash": "b845cd66da3eb1fcece50efba83ea12bc40afbaa",
+    "bug_commit_hash": [
+      "baad26e68401151cebb2b989404768dfcf093287"
+    ],
+    "best_scenario_issue_date": "2018-04-27T18:21:55",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3530,
+    "repo_name": "starlightknight/jpcsp",
+    "fix_commit_hash": "74e104b06a5cf8584829631c3b97304e0eaff071",
+    "bug_commit_hash": [
+      "84e97c4979c18cfc68054137098f4df71a1bba45"
+    ],
+    "best_scenario_issue_date": "2018-12-12T17:32:39",
+    "language": [
+      "java"
+    ]
+  },
+  {
+    "id": 3536,
+    "repo_name": "brianchandotcom/liferay-portal",
+    "fix_commit_hash": "123f0dc63bae6a491ccd3a3552db856e0eddd276",
+    "bug_commit_hash": [
+      "73f4a263a488751e91a165c7ad3039168a509f8c"
+    ],
+    "best_scenario_issue_date": "2019-10-18T23:09:16",
+    "language": [
+      "java"
+    ]
+  }
+]
