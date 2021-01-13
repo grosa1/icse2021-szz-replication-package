@@ -2,13 +2,13 @@
 
 #### Evaluating SZZ Implementations Through a Developer-informed Oracle: Replication package
 
-- `analyzed_projects_all.csv` and `analyzed_projects_issues_only.csv` contain in CSV format the list of all cloned projects at the time of this study.
+- `analyzed_projects_all.csv` contains in CSV format the list of all cloned projects at the time of this study.
     - `repo_name` is the repository name;
     - `last_checkout` is the hash of the last commit available at the time of the clone, and;
     - `date` is the date of the latest available commit.
     
 - `detailed-database` is a folder containing the two complete datasets we defined.
-    - `overall.json` contains all the instances of our dataset (1,625);
+    - `overall.json` contains all the instances of our dataset (1,930);
     - `language-filtered.json` contains 1,115 instances involving files in the following languages: C, Python, C++, JavaScript, Java, PHP, Ruby, and C#.
     Both these datasets are JSON arrays. Each element has the following structure:
         - `id` is a unique ID used during the construction phase, it is a univocal value for every entry;
@@ -67,8 +67,7 @@
 ## How to generate the pre-calculated results
 The following are the instructions needed to execute our suite of tools and generate our results. This example refers to the B-SSZ variant, but any other algorithm can be reproduced by changing the input arguments as detailed in the original guide. See `tools/pyszz.zip` for more instructions.
 
-- As the first step you need to clone or download the git repository of every project. You can choose one of the two following approaches.
-    - At this link [github-pre-cloned-image](https://) (BLINDED LINK) we provide a pre-cloned archive containing a snapshot at the time of the study. However, due to the dimension of the archive sharing this resource on a free anonymous public host is not possible, we invite reviewers to use the second solution.
+- As the first step you need to clone the git repository of every project. You can rely on the following approach.
     - As an alternative, you can clone into `cloned` folder each repository and then checkout the list of commit's hashes contained in `analyzed_projects_all.csv` and `analyzed_projects_issues_only.csv`. This recreates the exact same conditions of our experiment. 
 
 - Running B-SZZ. [PySZZ](https://) (BLINDED LINK, see `tools/pyszz.zip` for a replication snapshot) is a free open-source suite of tools used to implement in Python all SZZ major variants.
