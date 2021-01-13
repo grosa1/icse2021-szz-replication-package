@@ -70,7 +70,7 @@ The following are the instructions needed to execute our suite of tools and gene
 - As the first step you need to clone the git repository of every project. You can rely on the following approach.
     - As an alternative, you can clone into `cloned` folder each repository and then checkout the list of commit's hashes contained in `analyzed_projects_all.csv` and `analyzed_projects_issues_only.csv`. This recreates the exact same conditions of our experiment. 
 
-- Running B-SZZ. [PySZZ](https://) (BLINDED LINK, see `tools/pyszz.zip` for a replication snapshot) is a free open-source suite of tools used to implement in Python all SZZ major variants.
+- Running B-SZZ. [PySZZ](https://github.com/grosa1/pyszz) see `tools/pyszz.zip` for a replication snapshot) is a free open-source suite of tools used to implement in Python all SZZ major variants.
 You can run a specific variant by passing a pre-defined `yml` file or experiment custom inputs. E.g., `conf/bszz.yml` activates B-SZZ variant.
 
 ``python3 main.py json-input-raw/bugfix_commits_all.json conf/bszz.yml cloned`` runs B-SZZ algorithm.
@@ -83,8 +83,8 @@ Where:
 
 NOTE. SZZUnleashed and OpenSZZ are not part of PySZZ suite. We adapted the original implementations to our input formats.
 - The [SZZUnleashed](https://github.com/wogscpar/SZZUnleashed) implementation has been forked to handle our input formant and add parallel support [SZZUnleashed-adapted
-](https://github.com/wogscpar/SZZUnleashed) (BLINDED LINK) (See `tools/szz-unleashed.zip` as a snapshot of our adapter)
-- The [OpenSZZ](https://github.com/clowee/OpenSZZ) implementation has been forked to exclude the Jira filter [OpenSZZ](https://github.com/clowee/OpenSZZ) (BLINDED LINK) (See `tools/open-szz.zip` as a snapshot of our adapter) 
+](https://github.com/intersimone999/SZZUnleashed-adapted) (See `tools/szz-unleashed.zip` as a snapshot of our adapter)
+- The [OpenSZZ](https://github.com/clowee/OpenSZZ) implementation has been forked to exclude the Jira filter [OpenSZZ](https://github.com/lucapascarella/OpenSZZ) (See `tools/open-szz.zip` as a snapshot of our adapter) 
 OpenSZZ needs a post-processing to adapt the generated results to our JSON format. See below _OpenSZZ post processing script_
 
 Both snapshots `tools/szz-unleashed.zip` and `tools/szz-unleashed.zip` contain the instructions to use our adapters. 
