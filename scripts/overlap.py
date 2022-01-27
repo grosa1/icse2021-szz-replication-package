@@ -9,7 +9,7 @@ model_names = ["B-SZZ", "AG-SZZ", "L-SZZ", "R-SZZ", "MA-SZZ", "RA-SZZ*", "SZZ@PY
 
 java_filter = ["RA-SZZ*", "SZZ@OPN"]
 
-model_list_all = ["bic_b_bugfix_commits_all.new.json",
+model_list_all = ["bic_b_bugfix_commits_all.json",
                   "bic_ag_bugfix_commits_all.json",
                   "bic_l_bugfix_commits_all.json",
                   "bic_r_bugfix_commits_all.json",
@@ -29,7 +29,7 @@ model_list_all_issue_filter = ["bic_b_bugfix_commits_all.issue-filter.json",
                                "bic_unleashed_bugfix_commits_all.issue-filter.json",
                                "bic_open_bugfix_commits_all.issue-filter.json"]
 
-model_list_issue_only = ["bic_b_bugfix_commits_issues_only.new.json",
+model_list_issue_only = ["bic_b_bugfix_commits_issues_only.json",
                          "bic_ag_bugfix_commits_issues_only.json",
                          "bic_l_bugfix_commits_issues_only.json",
                          "bic_r_bugfix_commits_issues_only.json",
