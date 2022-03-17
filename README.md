@@ -1,5 +1,7 @@
 # Replication package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5876817.svg)](https://doi.org/10.5281/zenodo.5876817)
+
 #### Evaluating SZZ Implementations Through a Developer-informed Oracle: Replication package
 
 - `analyzed_projects_all.csv` contains in CSV format the list of all cloned projects at the time of this study.
