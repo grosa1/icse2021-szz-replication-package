@@ -2,7 +2,11 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5876817.svg)](https://doi.org/10.5281/zenodo.5876817)
 
-#### Evaluating SZZ Implementations Through a Developer-informed Oracle: Replication package
+### [NOTE 1: For new studies involving PySZZ, please use the updated version of the tool (PySZZ v2)](https://github.com/grosa1/pyszz_v2)
+### [NOTE 2: The code used for the commit mining phase is available here](https://github.com/grosa1/bugfix-commits-miner)
+------------------
+
+## Evaluating SZZ Implementations Through a Developer-informed Oracle: Replication package
 
 - `analyzed_projects_all.csv` contains in CSV format the list of all cloned projects at the time of this study.
     - `repo_name` is the repository name;
@@ -20,10 +24,10 @@
                 - `hash`: commit hash;
                 - `message`: commit message;
                 - `author`: commit author;
-                - `url`: GitHub API url with complete information about the commit;
+                - `url`: GitHub API URL with complete information about the commit;
             - `files`: an array of files modified in the fix commit; each element provides:
                 - `name`: name of the modified file after the commit (this is not the complete path, just the file name);
-                - `old_path`/`new_path`: path of the file before and after the commit;
+                - `old_path`/`new_path`: the path of the file before and after the commit;
                 - `lang`: extension of the file (indicating the programming language);
                 - `lines_added`/`lines_deleted`: lists of line numbers added/deleted;
                 - `change_type`: type of change (one of the following: "MODIFY"/"ADD"/"RENAME"/"DELETE");
@@ -32,16 +36,16 @@
                 - `hash`: commit hash;
                 - `message`: commit message;
                 - `author`: commit author;
-                - `url`: GitHub API url with complete information about the commit;
+                - `url`: GitHub API URL with complete information about the commit;
             - `files`: an array of files modified in the fix commit; each element provides:
                 - `name`: name of the modified file after the commit (this is not the complete path, just the file name);
-                - `old_path`/`new_path`: path of the file before and after the commit;
+                - `old_path`/`new_path`: the path of the file before and after the commit;
                 - `lang`: extension of the file (indicating the programming language);
                 - `lines_added`/`lines_deleted`: lists of line numbers added/deleted;
                 - `change_type`: type of change (one of the following: "MODIFY"/"ADD"/"RENAME"/"DELETE");
         - `issue_urls` is a list of URLs of issues referenced in the fix commit;
         - `earliest_issue_date` is the date of the earliest issue referenced in the fix commit (YYYY-MM-DDTHH:MM:SS);
-        - `best_scenario_issue_date` represents the date of an ideal issue reported for the bug; it is the date of the last bug inducing commit incremented by 60 seconds (YYYY-MM-DDTHH:MM:SS).
+        - `best_scenario_issue_date` represents the date of an ideal issue reported for the bug; it is the date of the last bug-inducing commit incremented by 60 seconds (YYYY-MM-DDTHH:MM:SS).
         
 - `json-input-raw` is a folder containing four datasets used as input for our experimentations, derived from `language-filtered.json`.
     - `bugfix_commits_all.json` and `bugfix_commits_issues_only.json` contain 1,115 and 129 instances in JSON format, respectively. 
@@ -52,19 +56,19 @@
         - `fix_commit_hash` is the commit's hash of the selected fix;
         - `bug_commit_hash` is a list of bug-inducing commits;
         - `earliest_issue_date` is a string containing the timestamp of the earliest issue (YYYY-MM-DDTHH:MM:SS);
-        - `best_scenario_issue_date` represents the date of an ideal issue reported for the bug; it is the date of the last bug inducing commit incremented by 60 seconds (YYYY-MM-DDTHH:MM:SS);
-        - `issue_urls` s a list of URLs of issues referenced in the fix commit;
-        - `language` is a list of the programming languages of the files impacted by fix commit.
+        - `best_scenario_issue_date` represents the date of an ideal issue reported for the bug; it is the date of the last bug-inducing commit incremented by 60 seconds (YYYY-MM-DDTHH:MM:SS);
+        - `issue_urls` is a list of URLs of issues referenced in the fix commit;
+        - `language` is a list of the programming languages of the files impacted by the fix commit.
     
-- `cloned` is a placeholder folder where git repositories must be copied (or cloned) to replicate this work. See instruction below.
+- `cloned` is a placeholder folder where git repositories must be copied (or cloned) to replicate this work. See the instructions below.
 
-- `json-output-raw` is a folder with a list of JSON files that contain our pre-calculated results for each SZZ algorithm. 
+- `json-output-raw` is a folder containing a list of JSON files containing our pre-calculated results for each SZZ algorithm. 
 
-- `scripts` is a folder that contains all scripts created to post-processing or analyze our data.
+- `scripts` is a folder that contains all scripts created to post-process or analyze our data.
 
 - `tools` is a folder that contains a snapshot of developed codes. For new studies, please use the extended version [PySZZ v2](https://github.com/grosa1/pyszz_v2).
 
-- `results` is a folder that contains all calculated metrics, as Precision, Recall, F-measure, etc.
+- `results` is a folder that contains all calculated metrics, such as Precision, Recall, F-measure, etc.
 
 ## How to generate the pre-calculated results
 The following are the instructions needed to execute our suite of tools and generate our results. This example refers to the B-SSZ variant, but any other algorithm can be reproduced by changing the input arguments as detailed in the original guide. See `tools/pyszz.zip` for more instructions.
@@ -73,7 +77,7 @@ The following are the instructions needed to execute our suite of tools and gene
     - As an alternative, you can clone into `cloned` folder each repository and then checkout the list of commit's hashes contained in `analyzed_projects_all.csv` and `analyzed_projects_issues_only.csv`. This recreates the exact same conditions of our experiment. 
 
 - _Running SZZ._ [PySZZ](https://github.com/grosa1/pyszz) (see `tools/pyszz.zip` for a replication snapshot, and check the reported URL for the latest version) is a free open-source suite of tools used to implement in Python all SZZ major variants.
-You can run a specific variant by passing a pre-defined `yml` file or experiment custom inputs. E.g., `conf/bszz.yml` activates B-SZZ variant.
+You can run a specific variant by passing a pre-defined `yml` file or experiment with custom inputs. E.g., `conf/bszz.yml` activates B-SZZ variant.
 
 ``python3 main.py json-input-raw/bugfix_commits_all.json conf/bszz.yml cloned`` runs B-SZZ algorithm.
 
@@ -87,18 +91,18 @@ NOTE. SZZUnleashed and OpenSZZ are not part of PySZZ suite. We adapted the origi
 - The [SZZUnleashed](https://github.com/wogscpar/SZZUnleashed) implementation has been forked to handle our input formant and add parallel support [SZZUnleashed-adapted
 ](https://github.com/intersimone999/SZZUnleashed-adapted) (See `tools/szz-unleashed.zip` as a snapshot of our adapter)
 - The [OpenSZZ](https://github.com/clowee/OpenSZZ) implementation has been forked to exclude the Jira filter [OpenSZZ](https://github.com/lucapascarella/OpenSZZ) (See `tools/open-szz.zip` as a snapshot of our adapter) 
-OpenSZZ needs a post-processing to adapt the generated results to our JSON format. See below _OpenSZZ post processing script_
+OpenSZZ needs post-processing to adapt the generated results to our JSON format. See below _OpenSZZ post-processing script_
 
 Both snapshots `tools/szz-unleashed.zip` and `tools/open-szz.zip` contain the instructions to use our adapters. 
 
-## Post processing for issue date filtering
-`json-output-raw` contains a list of JSON file generated by each SZZ variant.
+## Post-processing for issue date filtering
+`json-output-raw` contains a list of JSON files generated by each SZZ variant.
 
 Specifically, `bic_<algorithm-name>_bugfix_commits_all.json` and `bic_<algorithm-name>_bugfix_commits_issues_only.json` refer to the output of `<algorithm-name>` SZZ variant.
-Instead, `bic_<algorithm-name>_bugfix_commits_all-filter.json` and `bic_<algorithm-name>_bugfix_commits_issues_only-filter.json` is the post filtered output when the filter on issue data is applied.
+Instead, `bic_<algorithm-name>_bugfix_commits_all-filter.json` and `bic_<algorithm-name>_bugfix_commits_issues_only-filter.json` is the post-filtered output when the filter on issue data is applied.
 
 We use `ruby postfilter.rb <json-output> <cloned>` to post-process `bic_<algorithm-name>_bugfix_commits_all.json` and `bic_<algorithm-name>_bugfix_commits_issues_only.json` and generate `bic_<algorithm-name>_bugfix_commits_all-filter.json` and `bic_<algorithm-name>_bugfix_commits_issues_only-filter.json`, as a reduced list of datapoints filter by issue's date.
-- `postfilter.rb` is out ruby script used to parse the output of any SZZ algorithm to filter out bic commits that do not respect the issue date condition.
+- `postfilter.rb` is our ruby script used to parse the output of any SZZ algorithm to filter out BIC commits that do not respect the issue date condition.
 - `<json-output>` is the input folder containing the list of JSON files produced by PySZZ;
 - `<cloned>` is the path to the pre-cloned (or checked out) repositories.
 
@@ -117,7 +121,7 @@ This tool produces:
 - `<dataset>-heatmap.pdf` as reported in the manuscript.
 - `wrong` is a subfolder with a list of CSV files containing the wrongly identified BIC with a link to GitHub FIX commit.
 
-### OpenSZZ post processing script
+### OpenSZZ post-processing script
 
 OpenSZZ produces three files for each analyzed instance. E.g., `AIFDR_inasafe_BugFixingCommit.csv`, `AIFDR_inasafe_BugInducingCommits.csv`, and `AIFDR_inasafe.txt`.
 
