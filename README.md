@@ -66,7 +66,7 @@
 
 - `scripts` is a folder that contains all scripts created to post-process or analyze our data.
 
-- `tools` is a folder that contains a snapshot of developed codes. For new studies, please use the extended version [PySZZ v2](https://github.com/grosa1/pyszz_v2).
+- `tools` is a folder that contains a snapshot of developed codes.
 
 - `results` is a folder that contains all calculated metrics, such as Precision, Recall, F-measure, etc.
 
@@ -76,7 +76,7 @@ The following are the instructions needed to execute our suite of tools and gene
 - _Preparing input data._ As the first step you need to clone the git repository of every project. You can rely on the following approach.
     - As an alternative, you can clone into `cloned` folder each repository and then checkout the list of commit's hashes contained in `analyzed_projects_all.csv` and `analyzed_projects_issues_only.csv`. This recreates the exact same conditions of our experiment. 
 
-- _Running SZZ._ [PySZZ](https://github.com/grosa1/pyszz) (see `tools/pyszz.zip` for a replication snapshot, and check the reported URL for the latest version) is a free open-source suite of tools used to implement in Python all SZZ major variants.
+- _Running SZZ._ [PySZZ](https://github.com/grosa1/pyszz_v2) (see `tools/pyszz.zip` for a replication snapshot, and check the reported URL for the latest version) is a free open-source suite of tools used to implement in Python all SZZ major variants.
 You can run a specific variant by passing a pre-defined `yml` file or experiment with custom inputs. E.g., `conf/bszz.yml` activates B-SZZ variant.
 
 ``python3 main.py json-input-raw/bugfix_commits_all.json conf/bszz.yml cloned`` runs B-SZZ algorithm.
